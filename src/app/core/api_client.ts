@@ -10,9 +10,9 @@ const currentDomain = window.location.hostname;
 const prodDomain = "foglie-admin.vercel.app/login";
 const devDomain = "foglie-admin.vercel.app/login";
 
-const prodApiUrl = "https://foglie-api.herokuapp.com/graphql";
-const devApiUrl = "https://foglie-api.herokuapp.com/graphql";
-const localApiUrl = "https://foglie-api.herokuapp.com/graphql";
+const prodApiUrl = "https://foglie-api.herokuapp.com/";
+const devApiUrl = "https://foglie-api.herokuapp.com/";
+const localApiUrl = "https://foglie-api.herokuapp.com/";
 
 function getBaseApiUrl(): string {
   if (currentDomain === prodDomain) {
