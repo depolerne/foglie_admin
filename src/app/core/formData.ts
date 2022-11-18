@@ -43,7 +43,7 @@ export const objectToFormData = (obj: any, cfg?: any, fd?: any, pre?: any) => {
     }
   } else if (isArray(obj)) {
     if (obj.length) {
-      obj.forEach((value: any, index: any) => {
+      obj.forEach((value: any) => {
         // const key = pre + "[" + (cfg.indices ? index : "") + "]";
 
         objectToFormData(value, cfg, fd, pre);
